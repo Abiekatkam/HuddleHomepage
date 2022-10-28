@@ -1,5 +1,5 @@
 # View Output
-[]()
+[Click here](https://abiekatkam.github.io/HuddleHomepage/)
 
 # Frontend Mentor - Huddle landing page with single introductory section
 
