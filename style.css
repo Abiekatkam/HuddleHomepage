@@ -1,0 +1,142 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@400;600&display=swap");
+
+:root {
+  --violet: hsl(257, 40%, 49%);
+  --magenta: hsl(300, 69%, 71%);
+
+  --open: "Open Sans", sans-serif;
+  --poppins: "Poppins", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  min-height: 1040px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Open Sans", sans-serif;
+  background-color: var(--violet);
+  color: white;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background: var(--violet);
+  background-image: url("./images/bg-desktop.svg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.wrapper {
+  width: 100%;
+  max-width: 1440px;
+  height: 800px;
+  padding: 3.3rem 4.38rem;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.data1 {
+  width: 55%;
+  transition: all 0.35s linear;
+}
+
+.logo {
+  width: 215px;
+  margin-bottom: 5rem;
+}
+
+.hero {
+  width: 99.2%;
+  margin-top: 0.1rem;
+  margin-left: 0.2rem;
+  transition: all 0.35s linear;
+}
+
+.data2 {
+  width: 41.2%;
+  margin-top: 0.88rem;
+  padding-right: 1rem;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-family: var(--poppins);
+  font-size: 2.48rem;
+  transition: all 0.35s linear;
+}
+
+.para {
+  margin: 1.2rem 0 1.6rem 0;
+  font-weight: 300;
+  font-size: 1.06rem;
+  letter-spacing: 0.05rem;
+  line-height: 27px;
+  transition: all 0.35s linear;
+}
+
+.register {
+  width: 200px;
+  height: 55px;
+  border: none;
+  border-radius: 55px;
+  background-color: white;
+  font-family: "Poppins", sans-serif;
+  font-size: 1.125rem;
+  font-weight: 300;
+  color: hsl(257, 40%, 49%);
+  box-shadow: 0 10px 10px rgb(0 0 0 / 25%);
+  cursor: pointer;
+  transition: all 0.25s linear;
+}
+
+.register:hover {
+  background-color: var(--magenta);
+  color: white;
+}
+
+.data3 {
+  width: 100%;
+  margin: 1rem 0.6rem 0 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.fab {
+  width: 40px;
+  height: 40px;
+  margin-left: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.1rem;
+  border: 1px solid white;
+  border-radius: 50%;
+  cursor: pointer;
+  transition: all 0.25s linear;
+}
+
+.fab:hover {
+  color: var(--magenta);
+  border: 1px solid var(--magenta);
+}
